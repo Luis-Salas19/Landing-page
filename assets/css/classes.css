@@ -1,0 +1,26 @@
+.main-bg {
+    background-image: url('../img/main_bg.svg');
+    background-size: cover;
+    background-position: center center; /*Centraliza a imagem de fundo*/
+    color: var(--white-color); /*Chamando a função que deixa a fonte com a cor branca*/
+}
+
+.white-bg { /*white background*/
+    background: var(--white-color); /*Chamando a função de cor para deixar o fundo com a cor branca*/
+    color: var(--primary-color);
+}
+
+.main-content {
+    max-width: 120rem; /*Largura maxima que eu quero para o conteudo (120rem = 1200px)*/
+    margin: 0 auto; /*Centraliza o conteudo*/
+    padding: var(--gap);
+}
+
+.section {
+    min-height: 100vh; /*Altura minima do view port, altura de cada elemento/section (100vh = 100%)*/
+}
+
+body .full-width {
+    width: 100%;
+    flex: 1 1 100%;
+}

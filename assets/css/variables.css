@@ -1,0 +1,9 @@
+/*Variavel global*/
+:root {
+    /*Todas cores utilizadas no file CSS*/
+    --primary-color: #0a1128; /*Cor padão da font da page, no body*/
+    --white-color: #ffffff; /*Cor utilizada no conteudo com imagem para a letra ficar branca/visivel*/
+    --light-grey-color: #eeeeee;
+    --secundary-color: crimson;
+    --gap: 0.2rem; /*igual a 30px, padding do menu*/
+}
